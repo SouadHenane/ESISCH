@@ -1,0 +1,238 @@
+.table-cell {     
+    -fx-padding: 0.8em 0em 0.5em 0.3em;
+    -fx-border-color: transparent -fx-box-border transparent transparent;  
+    -fx-font: 14px "JF Flat";
+    -fx-text-fill: white;
+}
+.table-view {
+    -fx-background-color : #414141 ;
+    -fx-table-header-border-color: #414141;
+    -fx-table-cell-border-color: -fx-box-border;
+}
+.table-view:focused {
+    -fx-background-color: #414141;
+
+}
+
+.table-row-cell {    
+    -fx-background-color: #414141;
+}
+.table-row-cell:odd {
+    -fx-background-color: #414141;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+.table-view:focused .table-row-cell:focused,.table-view:focused .table-row-cell:focused:odd {
+    -fx-background-color: -fx-box-border, white;
+    -fx-background-insets: 0, 1, 2;
+
+}
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-box-border, rgb(205,205,205);
+    -fx-text-fill: #414141;
+
+}
+.table-view:focused .table-row-cell:filled:selected, .table-view:row-selection .table-row-cell:filled:hover:selected {    
+    -fx-background-color: rgb(205,205,205);
+    -fx-background-insets: 0,1 1 1 1 0;
+}
+.table-view:focused .table-row-cell:filled:focused:selected:hover {    
+    -fx-background-color: -fx-box-border, rgb(205,205,205);
+    -fx-background-insets: 0,1 1 1 1 0;
+
+}
+.table-row-cell:filled:selected:focused, .table-row-cell:filled:selected {
+    -fx-background-color: rgb(205,205,205);
+
+}
+.table-view:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: rgb(231,231,231);
+}
+.table-view:row-selection .table-row-cell:filled:focused:hover { 
+    -fx-background-color: rgb(205,205,205);
+
+}
+.table-view:focused .table-row-cell:filled:focused:hover {
+    -fx-background-color: -fx-box-border,rgb(231,231,231);
+}
+.table-view .column-header-background {
+    -fx-background-color: white;
+}
+ 
+
+.table-view .column-header .label{
+     -fx-text-fill: white;
+     -fx-font: 14px "JF Flat";
+}
+
+ 
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: #414141;
+    -fx-text-fill: white;
+    -fx-size: 35;
+    -fx-border-color: -fx-box-border;
+    -fx-border-insets: -1 0 0 -1;
+    -fx-padding: 0 5 0 0;
+}
+.table-view .show-hide-columns-button {
+    -fx-background-color: white;
+    -fx-border-color: -fx-box-border;
+    -fx-border-insets: -1 -1 0 0;
+}
+.table-view .column-drag-header {    
+    -fx-background-color: rgb(45,137,239);
+    -fx-opacity: 0.6;
+}
+.table-view .column-resize-line {  
+    -fx-background-color: rgb(45,137,239);
+}
+.table-view .column-overlay {
+    -fx-background-color: darkgray;
+    -fx-opacity: 0.2;
+}
+.table-view .arrow {
+    -fx-padding: 0.2em;
+    -fx-shape: "M4,17v-2.889l4.124-3.86l4.125,3.86V17l-4.125-3.375L4,17z";
+}
+.text
+{
+    -fx-font-family: "JF Flat";
+    -fx-font-size : 16px;
+
+}
+
+.text-field{
+    -fx-skin: "style.MetroTextFieldSkin";
+}
+
+.text-input{
+    -fx-background-radius: 0, 0;
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-background-insets: 0;
+    -fx-prompt-text-fill: #818181;
+    -fx-highlight-fill: #008287;
+    -fx-highlight-text-fill: white;
+    -fx-text-fill: black;
+    -fx-font-family: "JF Flat";
+    -fx-font-size: 14px;
+
+}
+
+.text-input:hover{
+    -fx-background-color: #e2e2e2;
+}
+
+.text-input:focused{
+    -fx-background-color: #5c5c5c, white;
+    -fx-text-fill: black;
+}
+
+
+
+
+.list-cell {
+    -fx-background-color: #414141;
+    -fx-padding: 0.8em 0em 0.8em 0.3em;
+    -fx-text-fill: White;
+    -fx-font: 17px "JF Flat";
+}
+.list-cell:odd {
+    -fx-background-color: #414141;
+}
+.list-view:focused {
+    -fx-background-color: -fx-box-border,-fx-box-border,white;
+}
+.list-view:focused .list-cell:filled:selected,
+.list-view:focused .list-cell:filled:selected:hover,
+.list-view:focused .list-cell:filled:focused:selected,
+.list-view:focused .list-cell:odd:filled:selected:focused:hover {
+    -fx-background-color: -fx-box-border, rgb(205,205,205);
+    -fx-text-fill: #414141;
+}
+.list-view:focused .list-cell:focused {
+    -fx-background-color: -fx-box-border, white;
+
+
+}
+
+.list-view .list-cell:hover,
+.list-view .list-cell:odd:hover,
+.list-view:focused .list-cell:odd:focused:hover,
+.list-view:focused .list-cell:focused:hover {
+    -fx-background-color: -fx-box-border,rgb(231,231,231);
+    -fx-text-fill: #414141;
+
+}
+.list-view .list-cell:odd:focused:hover {
+    -fx-background-color: -fx-box-border,rgb(205,205,205);
+}
+.list-view .list-cell:selected {
+    -fx-background-color: rgb(205,205,205);
+}
+
+.check-box{
+-fx-font-family: "JF Flat";
+-fx-font-size: 18;
+-fx-text-fill: white;
+}
+
+.check-box .box{
+-fx-outer-border: #cadbec;
+-fx-body-color: white;
+ -fx-background-color:
+   -fx-outer-border,
+   -fx-body-color;
+-fx-background-insets: 0, 1;
+-fx-background-radius: 2px, 0px;}
+
+.check-box .mark {
+      -fx-shape:"M14.596,2.055L12.455,0C9.687,2.884,6.011,6.714,5.158,7.602L2.055,4.624L0,6.765l5.242,5.037l0.003-0.004
+    l0.003,0.004L14.596,2.055z";
+    -fx-scale-x: 2;
+    -fx-scale-y: 2;
+    -fx-translate-x: 5px;
+    -fx-translate-y: -3px;
+}
+
+.check-box:selected .mark {
+-fx-background-color: #0181e2;}
+.button {
+
+    -fx-border-width: 1;
+    -fx-border-color : white ;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-text-fill:white;
+    -fx-font-size:14px;
+    -fx-font: 16px "JF Flat";
+
+}
+
+.button:hover{
+    -fx-background-color: #0AB6CE;
+}
+
+
+
+.button:focused
+{
+
+    -fx-border-width: 2;
+    -fx-border-color : white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+}
+
+.text
+{
+    -fx-font-family: "JF Flat";
+    -fx-font-size : 16px;
+
+}
+
+.text-field{
+    -fx-skin: "style.MetroTextFieldSkin";
+}
+

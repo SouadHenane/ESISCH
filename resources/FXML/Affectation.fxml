@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="AP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Affectation">
+   <children>
+      <Label fx:id="desc" layoutX="140.0" layoutY="14.0" prefHeight="33.0" prefWidth="371.0" textAlignment="CENTER" />
+      <AnchorPane fx:id="AP1" layoutY="70.0" prefHeight="300.0" prefWidth="200.0" />
+      <AnchorPane fx:id="AP2" layoutX="225.0" layoutY="70.0" prefHeight="300.0" prefWidth="200.0" />
+      <AnchorPane fx:id="AP3" layoutX="450.0" layoutY="70.0" prefHeight="300.0" prefWidth="200.0" />
+      <Label fx:id="Addens" layoutX="200.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" />
+      <Label fx:id="Delens" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" />
+      <Label fx:id="Addcc" layoutX="425.0" layoutY="150.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" />
+      <Label fx:id="Delcc" layoutX="425.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#Valider" prefHeight="40.0" prefWidth="120.0" text="Valider" />
+      <Button onAction="#Vider" layoutX="471.0" layoutY="400.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="120.0" text="Vider " />
+      <Label fx:id="error" layoutX="27.0" layoutY="400.0" prefHeight="40.0" prefWidth="314.0" />
+   </children>
+</AnchorPane>

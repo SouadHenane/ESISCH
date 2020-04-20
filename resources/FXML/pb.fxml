@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="252.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/8.0.71" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emploiDuTemps.Main2">
+   <children>
+      <ProgressIndicator layoutX="177.0" layoutY="70.0" prefHeight="112.0" prefWidth="126.0" progress="0.0" />
+   </children>
+</AnchorPane>

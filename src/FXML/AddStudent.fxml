@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Studentcon">
+   <children>
+      <ComboBox fx:id="groups" layoutX="150.0" layoutY="30.0" prefHeight="15.0" prefWidth="300.0" promptText="Groupe " />
+      <TextField fx:id="ID" layoutX="150.0" layoutY="100.0" prefHeight="30.0" prefWidth="300.0" promptText="Mtricule " />
+      <TextField fx:id="nom" layoutX="150.0" layoutY="150.0" prefHeight="30.0" prefWidth="300.0" promptText="Nom" />
+      <TextField fx:id="prenom" layoutX="150.0" layoutY="200.0" prefHeight="30.0" prefWidth="300.0" promptText="Prénom" />
+      <TextField fx:id="email" layoutX="150.0" layoutY="300.0" prefHeight="30.0" prefWidth="300.0" promptText="Email" />
+      <DatePicker fx:id="Bday" layoutX="150.0" layoutY="250.0" prefHeight="30.0" prefWidth="300.0" promptText="Date de naissance" />
+      <Button layoutX="350.0" layoutY="400.0" onAction="#valider" prefHeight="40.0" prefWidth="120.0" text="Valider " />
+      <Button layoutX="471.0" layoutY="400.0" onAction="#vider" prefHeight="40.0" prefWidth="120.0" text="Vider " />
+      <Label fx:id="error" layoutX="150.0" layoutY="350.0" prefHeight="30.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>

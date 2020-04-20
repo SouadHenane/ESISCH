@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<?import javafx.scene.control.Label?>
+<AnchorPane fx:id="AP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Updateprof">
+   <children>
+      <TextField fx:id="ID" layoutX="150.0" layoutY="50.0" prefHeight="30.0" prefWidth="300.0" promptText="Matricule" />
+      <TextField fx:id="Nom" layoutX="150.0" layoutY="100.0" prefHeight="30.0" prefWidth="300.0" promptText="Nom" />
+      <TextField fx:id="Prenom" layoutX="150.0" layoutY="150.0" prefHeight="30.0" prefWidth="300.0" promptText="Prenom" />
+      <TextField fx:id="email" layoutX="150.0" layoutY="200.0" prefHeight="30.0" prefWidth="300.0" promptText="E-mail" />
+      <Button layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#Update" prefHeight="40.0" prefWidth="120.0" text="Modifier" />
+      <Button layoutX="471.0" layoutY="400.0" mnemonicParsing="false" onAction="#Vider" prefHeight="40.0" prefWidth="120.0" text="Vider" />
+      <Label layoutX="150.0" layoutY="350.0" prefHeight="30.0" prefWidth="300.0" />
+   </children>
+</AnchorPane>
+

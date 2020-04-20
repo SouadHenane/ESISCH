@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="197.0" prefWidth="414.0" style="-fx-background-color: #414141;" stylesheets="/CSS/Tableview.css" xmlns="http://javafx.com/javafx/8.0.71" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emploiDuTemps.Main2">
+   <children>
+      <Label fx:id="label" layoutX="53.0" layoutY="82.0" prefHeight="17.0" prefWidth="209.0" text="Veuillez attendre le temps du calcul ..." />
+   </children>
+</AnchorPane>
